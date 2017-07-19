@@ -1,5 +1,5 @@
 body {
-	background-image: url("C:/Users/didge/Basic-Portfolio/assets/images/concrete_seamless.png");
+	background-image: url("../images/concrete_seamless.png");
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -64,6 +64,11 @@ li a {
     text-decoration: none;
 }
 
+li a:hover {
+    background-color: #555;
+    color: white;
+ }
+
 #aboutMe {
 	
 	position: relative;
@@ -73,9 +78,16 @@ li a {
 	padding: 15px;
 	background-color: #ffffff;
 	display: block;
+	border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
 
-	
+}
 
+.aboutMeText {
+
+	margin: 10px;
+	position: inline;
 }
 
 
@@ -94,6 +106,9 @@ li a {
     vertical-align: middle;
     line-height: 50px;
     padding: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
 }
 
 #connectWithMe2 {
@@ -104,24 +119,53 @@ li a {
 	background-color: #ffffff;
 	display: block;
 	position: relative;
-	top: -540px;
+	top: -532px;
 	right: 250px;
 	text-align: center;
     vertical-align: middle;
     line-height: 50px;
     padding: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
 
 
 }
+
+#connectWithMe3 {
+	height: 200px;
+	width: 350px;
+	float: right;
+	background-color: #ffffff;
+	display: block;
+	position: relative;
+	top: -681px;
+	right: 250px;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    padding: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
 
 #Daniel {
 	float: left;
 
 }
 
+.aboutMeText {
+	padding: 10px;
+	
+
+
+}
+
 #copyright {
 	background-color: #666666;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     height: 90px;
@@ -131,15 +175,13 @@ li a {
 	border-top-color: #4aaaa5;
 	border-top-width: 15px;
 
-}	
-
-#span1 {
-	text-align: center;
-	display: block;
-	position: relative;
-	left: 100px;
-	bottom: -25px;
 }
+
+#copyrightText {
+	position: relative;
+	left: 670px;
+	bottom: -25px;
+}	
 
 
 input[type=text], select, textarea {
@@ -164,9 +206,88 @@ input[type=submit] {
 
 .container {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 15px;
     height: 500px;
     width: 700px;
     position: relative;
 	left: 100px;
+	border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+#portfolioProjects {
+	background-color: #ffffff;
+	position: relative;
+	left: 100px;
+	width: 700px;
+	height: 650px;
+	padding: 15px;
+	display: block;
+	border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+
+}
+
+#portfolioProjectsItems {
+	display: inline;
+}
+
+.portfolioPics {
+	height: 150px;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+.portfolioText {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width:300px;
+	position: relative;
+    top: -64px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+    margin: 0;
+    padding: 0;
+
+}
+
+#hangman {
+	position: relative;
+	left: 18px;
+	top: 9px;
+}
+
+#rpgGame {
+	position: relative;
+	top: -177px;
+	left: 373px;
+}
+
+#triviaGame {
+	position: relative;
+	top: -175px;
+	left: 18px;
+
+}
+
+#rutgersInfo {
+	position: relative;
+	top: -360px;
+	left: 373px;
+
+}
+
+#rockPaperScissors {
+	position: relative;
+	top: -360px;
+	left: 18px;
+}
+
+a {
+	text-decoration: none;
 }
